@@ -1,0 +1,7 @@
+# /node_modules/* ignored by default
+
+build/*
+
+# this negated pattern is currently needed to lint dot files
+# see: https://github.com/eslint/eslint/issues/4828
+!**/*.eslintrc.js
